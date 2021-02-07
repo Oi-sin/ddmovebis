@@ -1,4 +1,7 @@
 # DD Movebis
+
+<a href="https://raw.githubusercontent.com/Oi-sin/ddmovebis/main/assets/geschwindigkeiten_2020_25_Dresden.png"><img align="right" width="50%" src="assets/geschwindigkeiten_2020_25_Dresden.png" title="Sample output image" alt="2020 data for Dresden"></a>
+
 Aufbereitung und Darstellung der Radverkehrsdaten aus dem Movebis-Projekt [1].
 
 Im Rahmen von "Stadtradeln" hat das Movebis-Projekt deutschlandweit GPS-Tracks von teilnehmenden Radfahrer'innen gesammelt. Anzahl Beobachtungen und durchschnittliche Geschwindigkeiten sind OSM-Links zugefügt worden und können nun auf mcloud [2] heruntergeladen werden.
@@ -9,7 +12,7 @@ Dieses Projekt basiert auf https://github.com/vizsim/movebis Vielen Dank für di
 
 ### Movebis-Daten
 
-Auf mcloud [2] befinden sich 3 Datensätze aus dem Movebis-Projekt: Radverkehrsmengenkarte [3], Geschwindigkeiten der Radfahrenden [4] und Heatmap Radverkehr [5]. Die Daten sollten entpackt unter `data\movebis` abgelegt werden.
+Auf mcloud [2] befinden sich 3 Datensätze aus dem Movebis-Projekt: Radverkehrsmengenkarte [3], Geschwindigkeiten der Radfahrenden [4] und Heatmap Radverkehr [5]. Die Daten müssen als `tar.gz` unter `data\movebis` abgelegt werden.
 
 Diese Daten sind unter Creative Commons Namensnennung - Nicht kommerziell (CC BY-NC) lizenziert.
 
