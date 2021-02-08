@@ -22,7 +22,7 @@ Beim Staatsbetrieb Geobasisinformation und Vermessung Sachsen gibt es die Verwal
 
 ### Python-Bibliotheken
 
-Das Projekt läuft aktuell mit Python 3.8.0 und benötigt die folgenden Bibliotheken: pandas, geopandas, numpy, shapely, matplotlib, contextily, folium, branca (und ggf. requests, requests-cache)
+Das Projekt läuft aktuell mit Python 3.8.0 und benötigt die folgenden Bibliotheken: `pandas, geopandas, numpy, shapely, matplotlib, contextily, mapclassify, folium, branca`
 
 
 
