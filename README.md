@@ -24,7 +24,15 @@ Beim Staatsbetrieb Geobasisinformation und Vermessung Sachsen gibt es die Verwal
 
 Das Projekt läuft aktuell mit Python 3.8.0 und benötigt die folgenden Bibliotheken: `pandas, geopandas, numpy, shapely, matplotlib, contextily, mapclassify, folium, branca`
 
+## Was macht es?
 
+Das Projekt enthält 2 Jupyter Notebooks: `movebis_numbers.ipynb` und `movebis_speed.ipynb`. `movebis_numbers.ipynb` wertet die Radverkehrsmengen aus, `movebis_speed.ipynb` stellt die durchschnittlichen Geschwindigkeiten dar. 
+
+Die Daten werden dabei auf eine der sächsichen Gemeinden gefiltert. Zusätzlich werden Strecken ignoriert, die nicht von einer bestimmten Mindestanzahl an Radlern befahren wurde. Dies filtert z.B. auch uninteressante Strecken wie Hinterhöfe raus. Damit ist die Standardkonfiguration auf Sachsen beschränkt. Zum Auswerten von anderen Teilen Deutschlands kann das Polygon, dass zum Filtern der Daten benutzt wird, mit eigenen Koordinaten überschrieben werden.
+
+Nach dem Filtern werden die Daten als CSV-Dateien gecached. Beim nächsten Aufruf mit gleichen Parametern werden direkt die Daten aus dem Cache verwendet. Dies spart sehr viel Rechenzeit ein.
+
+Als Ausgabe werden die Daten als statisches PNG und als HTML ausgegeben. Letzteres erlaubt ein dynamisches Zoomen auf der Karte.
 
 
 ## Quellen:
